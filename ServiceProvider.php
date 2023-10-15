@@ -2,7 +2,7 @@
 
 namespace QuantaForge\TextEditor;
 
-class ServiceProvider extends \Illuminate\Support\ServiceProvider
+class ServiceProvider extends \QuantaForge\Support\ServiceProvider
 {
 
     public function boot()
