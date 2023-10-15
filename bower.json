@@ -1,10 +1,10 @@
 {
-	"name": "ckeditor",
+	"name": "texteditor",
 	"description": "JavaScript WYSIWYG web text editor.",
-	"keywords": [ "ckeditor", "fckeditor", "editor", "wysiwyg", "html", "richtext", "text", "javascript" ],
+	"keywords": [ "texteditor", "ftexteditor", "editor", "wysiwyg", "html", "richtext", "text", "javascript" ],
 	"authors": "CKSource (http://cksource.com/)",
-	"license": "For licensing, see LICENSE.md or http://ckeditor.com/license.",
-	"homepage": "http://ckeditor.com",
-	"main": "./ckeditor.js",
+	"license": "For licensing, see LICENSE.md or http://texteditor.com/license.",
+	"homepage": "http://texteditor.com",
+	"main": "./texteditor.js",
 	"moduleType": "globals"
 }

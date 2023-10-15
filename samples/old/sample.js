@@ -1,6 +1,6 @@
 ﻿/**
  * Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
- * For licensing, see LICENSE.md or http://ckeditor.com/license
+ * For licensing, see LICENSE.md or http://texteditor.com/license
  */
 
 // Tool scripts for the sample pages.
@@ -10,7 +10,7 @@
 	CKEDITOR.on( 'instanceReady', function( ev ) {
 		// Check for sample compliance.
 		var editor = ev.editor,
-			meta = CKEDITOR.document.$.getElementsByName( 'ckeditor-sample-required-plugins' ),
+			meta = CKEDITOR.document.$.getElementsByName( 'texteditor-sample-required-plugins' ),
 			requires = meta.length ? CKEDITOR.dom.element.get( meta[ 0 ] ).getAttribute( 'content' ).split( ',' ) : [],
 			missing = [],
 			i;

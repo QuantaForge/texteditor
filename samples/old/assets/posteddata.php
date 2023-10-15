@@ -2,7 +2,7 @@
 <?php
 /*
 Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
-For licensing, see LICENSE.md or http://ckeditor.com/license
+For licensing, see LICENSE.md or http://texteditor.com/license
 */
 ?>
 <html>
@@ -49,7 +49,7 @@ if (!empty($_POST))
 	<div id="footer">
 		<hr>
 		<p>
-			CKEditor - The text editor for the Internet - <a class="samples" href="http://ckeditor.com/">http://ckeditor.com</a>
+			CKEditor - The text editor for the Internet - <a class="samples" href="http://texteditor.com/">http://texteditor.com</a>
 		</p>
 		<p id="copy">
 			Copyright &copy; 2003-2017, <a class="samples" href="http://cksource.com/">CKSource</a> - Frederico Knabben. All rights reserved.

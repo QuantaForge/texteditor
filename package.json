@@ -1,15 +1,15 @@
 {
-  "name": "ckeditor",
+  "name": "texteditor",
   "version": "4.7.2",
   "description": "JavaScript WYSIWYG web text editor.",
-  "main": "ckeditor.js",
+  "main": "texteditor.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ckeditor/ckeditor-releases.git"
+    "url": "git+https://github.com/texteditor/texteditor-releases.git"
   },
   "keywords": [
-    "ckeditor",
-    "fckeditor",
+    "texteditor",
+    "ftexteditor",
     "editor",
     "wysiwyg",
     "html",
@@ -20,7 +20,7 @@
   "author": "CKSource (http://cksource.com/)",
   "license": "(GPL-2.0 OR LGPL-2.1 OR MPL-1.1)",
   "bugs": {
-    "url": "http://dev.ckeditor.com"
+    "url": "http://dev.texteditor.com"
   },
-  "homepage": "http://ckeditor.com"
+  "homepage": "http://texteditor.com"
 }
