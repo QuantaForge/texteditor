@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("print","eu",{toolbar:"Inprimatu"});
+﻿TEXTEDITOR.plugins.setLang("print","eu",{toolbar:"Inprimatu"});

@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("print","tr",{toolbar:"Yazdır"});
+﻿TEXTEDITOR.plugins.setLang("print","tr",{toolbar:"Yazdır"});

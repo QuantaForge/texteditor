@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("selectall","ku",{toolbar:"دیاریکردنی هەمووی"});
+﻿TEXTEDITOR.plugins.setLang("selectall","ku",{toolbar:"دیاریکردنی هەمووی"});

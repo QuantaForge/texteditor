@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("sourcedialog","sl",{toolbar:"Izvorna koda",title:"Izvorna koda"});
+﻿TEXTEDITOR.plugins.setLang("sourcedialog","sl",{toolbar:"Izvorna koda",title:"Izvorna koda"});

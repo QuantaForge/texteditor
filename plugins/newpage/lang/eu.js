@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("newpage","eu",{toolbar:"Orrialde berria"});
+﻿TEXTEDITOR.plugins.setLang("newpage","eu",{toolbar:"Orrialde berria"});

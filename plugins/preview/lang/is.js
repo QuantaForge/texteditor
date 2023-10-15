@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("preview","is",{preview:"Forskoða"});
+﻿TEXTEDITOR.plugins.setLang("preview","is",{preview:"Forskoða"});

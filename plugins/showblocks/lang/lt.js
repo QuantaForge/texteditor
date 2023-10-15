@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("showblocks","lt",{toolbar:"Rodyti blokus"});
+﻿TEXTEDITOR.plugins.setLang("showblocks","lt",{toolbar:"Rodyti blokus"});

@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("newpage","th",{toolbar:"สร้างหน้าเอกสารใหม่"});
+﻿TEXTEDITOR.plugins.setLang("newpage","th",{toolbar:"สร้างหน้าเอกสารใหม่"});

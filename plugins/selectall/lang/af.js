@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("selectall","af",{toolbar:"Selekteer alles"});
+﻿TEXTEDITOR.plugins.setLang("selectall","af",{toolbar:"Selekteer alles"});

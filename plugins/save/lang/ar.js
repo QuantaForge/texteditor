@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("save","ar",{toolbar:"حفظ"});
+﻿TEXTEDITOR.plugins.setLang("save","ar",{toolbar:"حفظ"});

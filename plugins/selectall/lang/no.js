@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("selectall","no",{toolbar:"Merk alt"});
+﻿TEXTEDITOR.plugins.setLang("selectall","no",{toolbar:"Merk alt"});

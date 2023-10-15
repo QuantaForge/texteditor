@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("preview","mn",{preview:"Уридчлан харах"});
+﻿TEXTEDITOR.plugins.setLang("preview","mn",{preview:"Уридчлан харах"});

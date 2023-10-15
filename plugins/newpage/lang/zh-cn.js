@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("newpage","zh-cn",{toolbar:"新建"});
+﻿TEXTEDITOR.plugins.setLang("newpage","zh-cn",{toolbar:"新建"});

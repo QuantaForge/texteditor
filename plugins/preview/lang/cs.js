@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("preview","cs",{preview:"Náhled"});
+﻿TEXTEDITOR.plugins.setLang("preview","cs",{preview:"Náhled"});

@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("save","mn",{toolbar:"Хадгалах"});
+﻿TEXTEDITOR.plugins.setLang("save","mn",{toolbar:"Хадгалах"});

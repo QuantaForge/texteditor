@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("preview","az",{preview:"Öncədən baxılması"});
+﻿TEXTEDITOR.plugins.setLang("preview","az",{preview:"Öncədən baxılması"});

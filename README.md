@@ -3,9 +3,9 @@ CKEditor Package
 
 ## Note
 
-**This is NOT the official CKEDITOR package.**
+**This is NOT the official TEXTEDITOR package.**
 
-[CKEDITOR officially has its own composer package since 2014](https://texteditor.com/blog/CKEditor-Supports-Bower-and-Composer/). Instead of using this package, we recommend you follow [the official CKEditor installation instructions with package managers](https://docs.texteditor.com/texteditor4/latest/guide/dev_package_managers.html#composer)
+[TEXTEDITOR officially has its own composer package since 2014](https://texteditor.com/blog/CKEditor-Supports-Bower-and-Composer/). Instead of using this package, we recommend you follow [the official CKEditor installation instructions with package managers](https://docs.texteditor.com/texteditor4/latest/guide/dev_package_managers.html#composer)
 
 ## Installation
 ### Set up package
@@ -33,7 +33,7 @@ Default way (initiate by name or id) :
 ```javascript
     <script src="/vendor/quantaforge/quantaforge-texteditor/texteditor.js"></script>
     <script>
-        CKEDITOR.replace( 'article-texteditor' );
+        TEXTEDITOR.replace( 'article-texteditor' );
     </script>
 ```
 

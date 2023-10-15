@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("showblocks","is",{toolbar:"Sýna blokkir"});
+﻿TEXTEDITOR.plugins.setLang("showblocks","is",{toolbar:"Sýna blokkir"});

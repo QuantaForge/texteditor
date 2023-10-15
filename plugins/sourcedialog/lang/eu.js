@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("sourcedialog","eu",{toolbar:"Iturburua",title:"Iturburua"});
+﻿TEXTEDITOR.plugins.setLang("sourcedialog","eu",{toolbar:"Iturburua",title:"Iturburua"});

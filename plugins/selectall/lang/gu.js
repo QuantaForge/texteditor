@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("selectall","gu",{toolbar:"બઘું પસંદ કરવું"});
+﻿TEXTEDITOR.plugins.setLang("selectall","gu",{toolbar:"બઘું પસંદ કરવું"});

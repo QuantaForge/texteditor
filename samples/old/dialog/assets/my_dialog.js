@@ -3,7 +3,7 @@
  * For licensing, see LICENSE.md or http://texteditor.com/license
  */
 
-CKEDITOR.dialog.add( 'myDialog', function() {
+TEXTEDITOR.dialog.add( 'myDialog', function() {
 	return {
 		title: 'My Dialog',
 		minWidth: 400,

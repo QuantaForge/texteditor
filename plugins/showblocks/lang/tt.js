@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("showblocks","tt",{toolbar:"Блокларны күрсәтү"});
+﻿TEXTEDITOR.plugins.setLang("showblocks","tt",{toolbar:"Блокларны күрсәтү"});

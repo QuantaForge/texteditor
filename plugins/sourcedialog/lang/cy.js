@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("sourcedialog","cy",{toolbar:"HTML",title:"HTML"});
+﻿TEXTEDITOR.plugins.setLang("sourcedialog","cy",{toolbar:"HTML",title:"HTML"});

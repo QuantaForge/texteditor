@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("showblocks","sl",{toolbar:"Prikaži ograde"});
+﻿TEXTEDITOR.plugins.setLang("showblocks","sl",{toolbar:"Prikaži ograde"});

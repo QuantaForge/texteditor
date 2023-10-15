@@ -13,7 +13,7 @@ For licensing, see LICENSE.md or http://texteditor.com/license
 
 // The instanceReady event is fired, when an instance of CKEditor has finished
 // its initialization.
-CKEDITOR.on( 'instanceReady', function( ev ) {
+TEXTEDITOR.on( 'instanceReady', function( ev ) {
 	// Show the editor name and description in the browser status bar.
 	document.getElementById( 'eMessage' ).innerHTML = 'Instance <code>' + ev.editor.name + '<\/code> loaded.';
 
@@ -23,14 +23,14 @@ CKEDITOR.on( 'instanceReady', function( ev ) {
 
 function InsertHTML() {
 	// Get the editor instance that we want to interact with.
-	var editor = CKEDITOR.instances.editor1;
+	var editor = TEXTEDITOR.instances.editor1;
 	var value = document.getElementById( 'htmlArea' ).value;
 
 	// Check the active editing mode.
 	if ( editor.mode == 'wysiwyg' )
 	{
 		// Insert HTML code.
-		// http://docs.texteditor.com/#!/api/CKEDITOR.editor-method-insertHtml
+		// http://docs.texteditor.com/#!/api/TEXTEDITOR.editor-method-insertHtml
 		editor.insertHtml( value );
 	}
 	else
@@ -39,14 +39,14 @@ function InsertHTML() {
 
 function InsertText() {
 	// Get the editor instance that we want to interact with.
-	var editor = CKEDITOR.instances.editor1;
+	var editor = TEXTEDITOR.instances.editor1;
 	var value = document.getElementById( 'txtArea' ).value;
 
 	// Check the active editing mode.
 	if ( editor.mode == 'wysiwyg' )
 	{
 		// Insert as plain text.
-		// http://docs.texteditor.com/#!/api/CKEDITOR.editor-method-insertText
+		// http://docs.texteditor.com/#!/api/TEXTEDITOR.editor-method-insertText
 		editor.insertText( value );
 	}
 	else
@@ -55,32 +55,32 @@ function InsertText() {
 
 function SetContents() {
 	// Get the editor instance that we want to interact with.
-	var editor = CKEDITOR.instances.editor1;
+	var editor = TEXTEDITOR.instances.editor1;
 	var value = document.getElementById( 'htmlArea' ).value;
 
 	// Set editor contents (replace current contents).
-	// http://docs.texteditor.com/#!/api/CKEDITOR.editor-method-setData
+	// http://docs.texteditor.com/#!/api/TEXTEDITOR.editor-method-setData
 	editor.setData( value );
 }
 
 function GetContents() {
 	// Get the editor instance that you want to interact with.
-	var editor = CKEDITOR.instances.editor1;
+	var editor = TEXTEDITOR.instances.editor1;
 
 	// Get editor contents
-	// http://docs.texteditor.com/#!/api/CKEDITOR.editor-method-getData
+	// http://docs.texteditor.com/#!/api/TEXTEDITOR.editor-method-getData
 	alert( editor.getData() );
 }
 
 function ExecuteCommand( commandName ) {
 	// Get the editor instance that we want to interact with.
-	var editor = CKEDITOR.instances.editor1;
+	var editor = TEXTEDITOR.instances.editor1;
 
 	// Check the active editing mode.
 	if ( editor.mode == 'wysiwyg' )
 	{
 		// Execute the command.
-		// http://docs.texteditor.com/#!/api/CKEDITOR.editor-method-execCommand
+		// http://docs.texteditor.com/#!/api/TEXTEDITOR.editor-method-execCommand
 		editor.execCommand( commandName );
 	}
 	else
@@ -89,24 +89,24 @@ function ExecuteCommand( commandName ) {
 
 function CheckDirty() {
 	// Get the editor instance that we want to interact with.
-	var editor = CKEDITOR.instances.editor1;
+	var editor = TEXTEDITOR.instances.editor1;
 	// Checks whether the current editor contents present changes when compared
 	// to the contents loaded into the editor at startup
-	// http://docs.texteditor.com/#!/api/CKEDITOR.editor-method-checkDirty
+	// http://docs.texteditor.com/#!/api/TEXTEDITOR.editor-method-checkDirty
 	alert( editor.checkDirty() );
 }
 
 function ResetDirty() {
 	// Get the editor instance that we want to interact with.
-	var editor = CKEDITOR.instances.editor1;
+	var editor = TEXTEDITOR.instances.editor1;
 	// Resets the "dirty state" of the editor (see CheckDirty())
-	// http://docs.texteditor.com/#!/api/CKEDITOR.editor-method-resetDirty
+	// http://docs.texteditor.com/#!/api/TEXTEDITOR.editor-method-resetDirty
 	editor.resetDirty();
 	alert( 'The "IsDirty" status has been reset' );
 }
 
 function Focus() {
-	CKEDITOR.instances.editor1.focus();
+	TEXTEDITOR.instances.editor1.focus();
 }
 
 function onFocus() {
@@ -130,7 +130,7 @@ function onBlur() {
 	<div class="description">
 	<p>
 		This sample shows how to use the
-		<a class="samples" href="http://docs.texteditor.com/#!/api/CKEDITOR.editor">CKEditor JavaScript API</a>
+		<a class="samples" href="http://docs.texteditor.com/#!/api/TEXTEDITOR.editor">CKEditor JavaScript API</a>
 		to interact with the editor at runtime.
 	</p>
 	<p>
@@ -153,14 +153,14 @@ function onBlur() {
 
 		<script>
 			// Replace the <textarea id="editor1"> with an CKEditor instance.
-			CKEDITOR.replace( 'editor1', {
+			TEXTEDITOR.replace( 'editor1', {
 				on: {
 					focus: onFocus,
 					blur: onBlur,
 
 					// Check for availability of corresponding plugins.
 					pluginsLoaded: function( evt ) {
-						var doc = CKEDITOR.document, ed = evt.editor;
+						var doc = TEXTEDITOR.document, ed = evt.editor;
 						if ( !ed.getCommand( 'bold' ) )
 							doc.getById( 'exec-bold' ).hide();
 						if ( !ed.getCommand( 'link' ) )

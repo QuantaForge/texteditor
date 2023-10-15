@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("save","da",{toolbar:"Gem"});
+﻿TEXTEDITOR.plugins.setLang("save","da",{toolbar:"Gem"});

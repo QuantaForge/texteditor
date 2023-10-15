@@ -39,7 +39,7 @@ For licensing, see LICENSE.md or http://texteditor.com/license
 			use the following JavaScript call:
 		</p>
 		<pre class="samples">
-CKEDITOR.replace( '<em>textarea_id</em>', {
+TEXTEDITOR.replace( '<em>textarea_id</em>', {
 	<strong>extraPlugins: 'uicolor',</strong>
 	toolbar: [ [ 'Bold', 'Italic' ], [ <strong>'UIColor'</strong> ] ]
 });</pre>
@@ -53,7 +53,7 @@ CKEDITOR.replace( '<em>textarea_id</em>', {
 
 				// Replace the <textarea id="editor"> with an CKEditor
 				// instance, using default configurations.
-				CKEDITOR.replace( 'editor1', {
+				TEXTEDITOR.replace( 'editor1', {
 					extraPlugins: 'uicolor',
 					toolbar: [
 						[ 'Bold', 'Italic', '-', 'NumberedList', 'BulletedList', '-', 'Link', 'Unlink' ],
@@ -74,10 +74,10 @@ CKEDITOR.replace( '<em>textarea_id</em>', {
 		<script>
 
 			// Disable automatic creation of inline instances.
-			CKEDITOR.disableAutoInline = true;
+			TEXTEDITOR.disableAutoInline = true;
 
 			// Replace the <div id="editor3"> with an inline CKEditor instance.
-			CKEDITOR.inline( 'editor2', {
+			TEXTEDITOR.inline( 'editor2', {
 				extraPlugins: 'uicolor',
 				toolbar: [
 					[ 'Bold', 'Italic', '-', 'NumberedList', 'BulletedList', '-', 'Link', 'Unlink' ],

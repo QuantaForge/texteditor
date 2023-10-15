@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("selectall","eo",{toolbar:"Elekti ĉion"});
+﻿TEXTEDITOR.plugins.setLang("selectall","eo",{toolbar:"Elekti ĉion"});

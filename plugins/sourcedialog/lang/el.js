@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("sourcedialog","el",{toolbar:"Κώδικας",title:"Κώδικας"});
+﻿TEXTEDITOR.plugins.setLang("sourcedialog","el",{toolbar:"Κώδικας",title:"Κώδικας"});

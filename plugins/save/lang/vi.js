@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("save","vi",{toolbar:"Lưu"});
+﻿TEXTEDITOR.plugins.setLang("save","vi",{toolbar:"Lưu"});

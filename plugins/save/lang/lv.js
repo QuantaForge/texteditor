@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("save","lv",{toolbar:"Saglabāt"});
+﻿TEXTEDITOR.plugins.setLang("save","lv",{toolbar:"Saglabāt"});

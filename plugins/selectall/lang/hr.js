@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("selectall","hr",{toolbar:"Odaberi sve"});
+﻿TEXTEDITOR.plugins.setLang("selectall","hr",{toolbar:"Odaberi sve"});

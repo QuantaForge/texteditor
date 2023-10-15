@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("pagebreak","lt",{alt:"Puslapio skirtukas",toolbar:"Įterpti puslapių skirtuką"});
+﻿TEXTEDITOR.plugins.setLang("pagebreak","lt",{alt:"Puslapio skirtukas",toolbar:"Įterpti puslapių skirtuką"});

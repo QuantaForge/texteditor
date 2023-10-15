@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("sourcedialog","eo",{toolbar:"Fonto",title:"Fonto"});
+﻿TEXTEDITOR.plugins.setLang("sourcedialog","eo",{toolbar:"Fonto",title:"Fonto"});

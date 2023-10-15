@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("showblocks","vi",{toolbar:"Hiển thị các khối"});
+﻿TEXTEDITOR.plugins.setLang("showblocks","vi",{toolbar:"Hiển thị các khối"});

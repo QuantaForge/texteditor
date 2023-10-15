@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("sourcedialog","bs",{toolbar:"HTML kôd",title:"HTML kôd"});
+﻿TEXTEDITOR.plugins.setLang("sourcedialog","bs",{toolbar:"HTML kôd",title:"HTML kôd"});

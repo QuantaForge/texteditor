@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("print","el",{toolbar:"Εκτύπωση"});
+﻿TEXTEDITOR.plugins.setLang("print","el",{toolbar:"Εκτύπωση"});

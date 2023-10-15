@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("save","is",{toolbar:"Vista"});
+﻿TEXTEDITOR.plugins.setLang("save","is",{toolbar:"Vista"});

@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("save","nl",{toolbar:"Opslaan"});
+﻿TEXTEDITOR.plugins.setLang("save","nl",{toolbar:"Opslaan"});

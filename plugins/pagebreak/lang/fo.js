@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("pagebreak","fo",{alt:"Síðuskift",toolbar:"Ger síðuskift"});
+﻿TEXTEDITOR.plugins.setLang("pagebreak","fo",{alt:"Síðuskift",toolbar:"Ger síðuskift"});

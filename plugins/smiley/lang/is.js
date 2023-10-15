@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("smiley","is",{options:"Smiley Options",title:"Velja svip",toolbar:"Svipur"});
+﻿TEXTEDITOR.plugins.setLang("smiley","is",{options:"Smiley Options",title:"Velja svip",toolbar:"Svipur"});

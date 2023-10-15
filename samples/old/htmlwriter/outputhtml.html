@@ -39,7 +39,7 @@ For licensing, see LICENSE.md or http://texteditor.com/license
 			full definition:
 		</p>
 <pre class="samples">
-CKEDITOR.replace( '<em>textarea_id</em>', {
+TEXTEDITOR.replace( '<em>textarea_id</em>', {
 	coreStyles_bold: { element: 'b' },
 	coreStyles_italic: { element: 'i' },
 
@@ -59,7 +59,7 @@ CKEDITOR.replace( '<em>textarea_id</em>', {
 			<textarea cols="80" id="editor1" name="editor1" rows="10">&lt;p&gt;This is some &lt;b&gt;sample text&lt;/b&gt;. You are using &lt;a href="http://texteditor.com/"&gt;CKEditor&lt;/a&gt;.&lt;/p&gt;</textarea>
 			<script>
 
-				CKEDITOR.replace( 'editor1', {
+				TEXTEDITOR.replace( 'editor1', {
 					/*
 					 * Ensure that htmlwriter plugin, which is required for this sample, is loaded.
 					 */
@@ -159,7 +159,7 @@ CKEDITOR.replace( '<em>textarea_id</em>', {
 						attributes: {
 							style: function( value, element ) {
 								// Return #RGB for background and border colors
-								return CKEDITOR.tools.convertRgbToHex( value );
+								return TEXTEDITOR.tools.convertRgbToHex( value );
 							}
 						}
 					} );
@@ -192,8 +192,8 @@ CKEDITOR.replace( '<em>textarea_id</em>', {
 					dataProcessor.writer.selfClosingEnd = '>';
 
 					// Make output formatting behave similar to FCKeditor.
-					var dtd = CKEDITOR.dtd;
-					for ( var e in CKEDITOR.tools.extend( {}, dtd.$nonBodyContent, dtd.$block, dtd.$listItem, dtd.$tableContent ) ) {
+					var dtd = TEXTEDITOR.dtd;
+					for ( var e in TEXTEDITOR.tools.extend( {}, dtd.$nonBodyContent, dtd.$block, dtd.$listItem, dtd.$tableContent ) ) {
 						dataProcessor.writer.setRules( e, {
 							indent: true,
 							breakBeforeOpen: true,

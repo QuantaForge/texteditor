@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("save","th",{toolbar:"บันทึก"});
+﻿TEXTEDITOR.plugins.setLang("save","th",{toolbar:"บันทึก"});

@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("selectall","eu",{toolbar:"Hautatu dena"});
+﻿TEXTEDITOR.plugins.setLang("selectall","eu",{toolbar:"Hautatu dena"});

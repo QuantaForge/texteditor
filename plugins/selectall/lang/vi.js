@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("selectall","vi",{toolbar:"Chọn tất cả"});
+﻿TEXTEDITOR.plugins.setLang("selectall","vi",{toolbar:"Chọn tất cả"});

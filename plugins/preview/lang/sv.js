@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("preview","sv",{preview:"Förhandsgranska"});
+﻿TEXTEDITOR.plugins.setLang("preview","sv",{preview:"Förhandsgranska"});

@@ -27,7 +27,7 @@ For licensing, see LICENSE.md or http://texteditor.com/license
 	</style>
 	<script>
 
-		CKEDITOR.on( 'instanceCreated', function( ev ){
+		TEXTEDITOR.on( 'instanceCreated', function( ev ){
 			var editor = ev.editor;
 
 			// Listen for the "pluginsLoaded" event, so we are sure that the
@@ -36,7 +36,7 @@ For licensing, see LICENSE.md or http://texteditor.com/license
 			editor.on( 'pluginsLoaded', function() {
 
 				// If our custom dialog has not been registered, do that now.
-				if ( !CKEDITOR.dialog.exists( 'myDialog' ) ) {
+				if ( !TEXTEDITOR.dialog.exists( 'myDialog' ) ) {
 					// We need to do the following trick to find out the dialog
 					// definition file URL path. In the real world, you would simply
 					// point to an absolute path directly, like "/mydir/mydialog.js".
@@ -46,15 +46,15 @@ For licensing, see LICENSE.md or http://texteditor.com/license
 					href = href.join( '/' );
 
 					// Finally, register the dialog.
-					CKEDITOR.dialog.add( 'myDialog', href );
+					TEXTEDITOR.dialog.add( 'myDialog', href );
 				}
 
 				// Register the command used to open the dialog.
-				editor.addCommand( 'myDialogCmd', new CKEDITOR.dialogCommand( 'myDialog' ) );
+				editor.addCommand( 'myDialogCmd', new TEXTEDITOR.dialogCommand( 'myDialog' ) );
 
 				// Add the a custom toolbar buttons, which fires the above
 				// command..
-				editor.ui.add( 'MyButton', CKEDITOR.UI_BUTTON, {
+				editor.ui.add( 'MyButton', TEXTEDITOR.UI_BUTTON, {
 					label: 'My Dialog',
 					command: 'myDialogCmd'
 				});
@@ -65,7 +65,7 @@ For licensing, see LICENSE.md or http://texteditor.com/license
 		// each editor instance. The "dialogDefinition" event is then
 		// fired. We should use this event to make customizations to the
 		// definition of existing dialogs.
-		CKEDITOR.on( 'dialogDefinition', function( ev ) {
+		TEXTEDITOR.on( 'dialogDefinition', function( ev ) {
 			// Take the dialog name and its definition from the event data.
 			var dialogName = ev.data.name;
 			var dialogDefinition = ev.data.definition;
@@ -142,7 +142,7 @@ For licensing, see LICENSE.md or http://texteditor.com/license
 	<div class="description">
 		<p>
 			This sample shows how to use the
-			<a class="samples" href="http://docs.texteditor.com/#!/api/CKEDITOR.dialog">CKEditor Dialog API</a>
+			<a class="samples" href="http://docs.texteditor.com/#!/api/TEXTEDITOR.dialog">CKEditor Dialog API</a>
 			to customize CKEditor dialog windows without changing the original editor code.
 			The following customizations are being done in the example below:
 		</p>
@@ -158,7 +158,7 @@ For licensing, see LICENSE.md or http://texteditor.com/license
 	<textarea cols="80" id="editor1" name="editor1" rows="10">&lt;p&gt;This is some &lt;strong&gt;sample text&lt;/strong&gt;. You are using &lt;a href="http://texteditor.com/"&gt;CKEditor&lt;/a&gt;.&lt;/p&gt;</textarea>
 	<script>
 		// Replace the <textarea id="editor1"> with an CKEditor instance.
-		CKEDITOR.replace( 'editor1', config );
+		TEXTEDITOR.replace( 'editor1', config );
 	</script>
 	<p>The below editor modify the dialog definition of the above added dialog using the <code>dialogDefinition</code> event:</p>
 	<ol>
@@ -173,7 +173,7 @@ For licensing, see LICENSE.md or http://texteditor.com/license
 	<script>
 
 		// Replace the <textarea id="editor1"> with an CKEditor instance.
-		CKEDITOR.replace( 'editor2', config );
+		TEXTEDITOR.replace( 'editor2', config );
 
 	</script>
 	<div id="footer">

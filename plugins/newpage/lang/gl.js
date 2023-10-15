@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("newpage","gl",{toolbar:"Páxina nova"});
+﻿TEXTEDITOR.plugins.setLang("newpage","gl",{toolbar:"Páxina nova"});

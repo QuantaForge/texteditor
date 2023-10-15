@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("selectall","tt",{toolbar:"Барысын сайлау"});
+﻿TEXTEDITOR.plugins.setLang("selectall","tt",{toolbar:"Барысын сайлау"});

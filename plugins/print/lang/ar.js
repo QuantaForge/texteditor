@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("print","ar",{toolbar:"طباعة"});
+﻿TEXTEDITOR.plugins.setLang("print","ar",{toolbar:"طباعة"});

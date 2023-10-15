@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("sourcedialog","de",{toolbar:"Quellcode",title:"Quellcode"});
+﻿TEXTEDITOR.plugins.setLang("sourcedialog","de",{toolbar:"Quellcode",title:"Quellcode"});

@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("newpage","si",{toolbar:"නව පිටුවක්"});
+﻿TEXTEDITOR.plugins.setLang("newpage","si",{toolbar:"නව පිටුවක්"});

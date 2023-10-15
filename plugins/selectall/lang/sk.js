@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("selectall","sk",{toolbar:"Vybrať všetko"});
+﻿TEXTEDITOR.plugins.setLang("selectall","sk",{toolbar:"Vybrať všetko"});

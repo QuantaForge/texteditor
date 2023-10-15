@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("sourcedialog","es",{toolbar:"Fuente HTML",title:"Fuente HTML"});
+﻿TEXTEDITOR.plugins.setLang("sourcedialog","es",{toolbar:"Fuente HTML",title:"Fuente HTML"});

@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("selectall","oc",{toolbar:"Seleccionar tot"});
+﻿TEXTEDITOR.plugins.setLang("selectall","oc",{toolbar:"Seleccionar tot"});

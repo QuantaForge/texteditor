@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("preview","sq",{preview:"Parashiko"});
+﻿TEXTEDITOR.plugins.setLang("preview","sq",{preview:"Parashiko"});

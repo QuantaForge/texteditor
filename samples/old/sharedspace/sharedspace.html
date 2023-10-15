@@ -64,9 +64,9 @@ For licensing, see LICENSE.md or http://texteditor.com/license
 	<script>
 
 		// Turn off automatic editor creation first.
-		CKEDITOR.disableAutoInline = true;
+		TEXTEDITOR.disableAutoInline = true;
 
-		CKEDITOR.inline( 'inline1', {
+		TEXTEDITOR.inline( 'inline1', {
 			extraPlugins: 'sharedspace',
 			removePlugins: 'floatingspace,resize',
 			sharedSpaces: {
@@ -75,7 +75,7 @@ For licensing, see LICENSE.md or http://texteditor.com/license
 			}
 		});
 
-		CKEDITOR.inline( 'inline2', {
+		TEXTEDITOR.inline( 'inline2', {
 			extraPlugins: 'sharedspace',
 			removePlugins: 'floatingspace,resize',
 			sharedSpaces: {
@@ -84,7 +84,7 @@ For licensing, see LICENSE.md or http://texteditor.com/license
 			}
 		});
 
-		CKEDITOR.appendTo( 'framed1', {
+		TEXTEDITOR.appendTo( 'framed1', {
 				extraPlugins: 'sharedspace',
 				removePlugins: 'maximize,resize',
 				sharedSpaces: {
@@ -95,7 +95,7 @@ For licensing, see LICENSE.md or http://texteditor.com/license
 			document.getElementById( 'inline1' ).innerHTML
 		);
 
-		CKEDITOR.appendTo( 'framed2', {
+		TEXTEDITOR.appendTo( 'framed2', {
 				extraPlugins: 'sharedspace',
 				removePlugins: 'maximize,resize',
 				sharedSpaces: {

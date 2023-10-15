@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("newpage","ro",{toolbar:"Pagină nouă"});
+﻿TEXTEDITOR.plugins.setLang("newpage","ro",{toolbar:"Pagină nouă"});

@@ -7,11 +7,11 @@
 // This file can be ignored and is not required to make use of CKEditor.
 
 ( function() {
-	CKEDITOR.on( 'instanceReady', function( ev ) {
+	TEXTEDITOR.on( 'instanceReady', function( ev ) {
 		// Check for sample compliance.
 		var editor = ev.editor,
-			meta = CKEDITOR.document.$.getElementsByName( 'texteditor-sample-required-plugins' ),
-			requires = meta.length ? CKEDITOR.dom.element.get( meta[ 0 ] ).getAttribute( 'content' ).split( ',' ) : [],
+			meta = TEXTEDITOR.document.$.getElementsByName( 'texteditor-sample-required-plugins' ),
+			requires = meta.length ? TEXTEDITOR.dom.element.get( meta[ 0 ] ).getAttribute( 'content' ).split( ',' ) : [],
 			missing = [],
 			i;
 
@@ -22,7 +22,7 @@
 			}
 
 			if ( missing.length ) {
-				var warn = CKEDITOR.dom.element.createFromHtml(
+				var warn = TEXTEDITOR.dom.element.createFromHtml(
 					'<div class="warning">' +
 						'<span>To fully experience this demo, the ' + missing.join( ', ' ) + ' plugin' + ( missing.length > 1 ? 's are' : ' is' ) + ' required.</span>' +
 					'</div>'
@@ -32,13 +32,13 @@
 		}
 
 		// Set icons.
-		var doc = new CKEDITOR.dom.document( document ),
+		var doc = new TEXTEDITOR.dom.document( document ),
 			icons = doc.find( '.button_icon' );
 
 		for ( i = 0; i < icons.count(); i++ ) {
 			var icon = icons.getItem( i ),
 				name = icon.getAttribute( 'data-icon' ),
-				style = CKEDITOR.skin.getIconStyle( name, ( CKEDITOR.lang.dir == 'rtl' ) );
+				style = TEXTEDITOR.skin.getIconStyle( name, ( TEXTEDITOR.lang.dir == 'rtl' ) );
 
 			icon.addClass( 'cke_button_icon' );
 			icon.addClass( 'cke_button__' + name + '_icon' );

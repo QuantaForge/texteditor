@@ -9,8 +9,8 @@ For licensing, see LICENSE.md or http://texteditor.com/license
 	<title>New Image plugin &mdash; CKEditor Sample</title>
 	<script src="../../../texteditor.js"></script>
 	<script>
-		if ( CKEDITOR.env.ie && CKEDITOR.env.version < 9 )
-			CKEDITOR.tools.enableHtml5Elements( document );
+		if ( TEXTEDITOR.env.ie && TEXTEDITOR.env.version < 9 )
+			TEXTEDITOR.tools.enableHtml5Elements( document );
 	</script>
 	<link href="../../../samples/old/sample.css" rel="stylesheet">
 	<meta name="texteditor-sample-name" content="New Image plugin">
@@ -32,10 +32,10 @@ For licensing, see LICENSE.md or http://texteditor.com/license
 			and easy captioning of the images.
 		</p>
 		<p>
-			To use the new plugin, extend <code><a class="samples" href="http://docs.texteditor.com/#!/api/CKEDITOR.config-cfg-extraPlugins">config.extraPlugins</a></code>:
+			To use the new plugin, extend <code><a class="samples" href="http://docs.texteditor.com/#!/api/TEXTEDITOR.config-cfg-extraPlugins">config.extraPlugins</a></code>:
 		</p>
 <pre class="samples">
-CKEDITOR.replace( '<em>textarea_id</em>', {
+TEXTEDITOR.replace( '<em>textarea_id</em>', {
 	<strong>extraPlugins: 'image2'</strong>
 } );
 </pre>
@@ -47,7 +47,7 @@ CKEDITOR.replace( '<em>textarea_id</em>', {
 
 	<script>
 
-		CKEDITOR.replace( 'editor1', {
+		TEXTEDITOR.replace( 'editor1', {
 			extraPlugins: 'image2',
 			height: 450
 		} );

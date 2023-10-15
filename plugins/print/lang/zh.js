@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("print","zh",{toolbar:"列印"});
+﻿TEXTEDITOR.plugins.setLang("print","zh",{toolbar:"列印"});

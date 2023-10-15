@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("pagebreak","tr",{alt:"Sayfa Sonu",toolbar:"Sayfa Sonu Ekle"});
+﻿TEXTEDITOR.plugins.setLang("pagebreak","tr",{alt:"Sayfa Sonu",toolbar:"Sayfa Sonu Ekle"});

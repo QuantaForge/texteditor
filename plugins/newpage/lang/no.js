@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("newpage","no",{toolbar:"Ny side"});
+﻿TEXTEDITOR.plugins.setLang("newpage","no",{toolbar:"Ny side"});

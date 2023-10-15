@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("showblocks","sq",{toolbar:"Shfaq Blloqet"});
+﻿TEXTEDITOR.plugins.setLang("showblocks","sq",{toolbar:"Shfaq Blloqet"});

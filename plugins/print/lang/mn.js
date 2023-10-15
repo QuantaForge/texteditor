@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("print","mn",{toolbar:"Хэвлэх"});
+﻿TEXTEDITOR.plugins.setLang("print","mn",{toolbar:"Хэвлэх"});

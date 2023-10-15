@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("sourcedialog","pl",{toolbar:"Źródło dokumentu",title:"Źródło dokumentu"});
+﻿TEXTEDITOR.plugins.setLang("sourcedialog","pl",{toolbar:"Źródło dokumentu",title:"Źródło dokumentu"});

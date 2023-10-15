@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("preview","ms",{preview:"Prebiu"});
+﻿TEXTEDITOR.plugins.setLang("preview","ms",{preview:"Prebiu"});

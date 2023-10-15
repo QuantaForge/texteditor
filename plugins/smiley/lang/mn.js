@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("smiley","mn",{options:"Smiley Options",title:"Тодорхойлолт оруулах",toolbar:"Тодорхойлолт"});
+﻿TEXTEDITOR.plugins.setLang("smiley","mn",{options:"Smiley Options",title:"Тодорхойлолт оруулах",toolbar:"Тодорхойлолт"});

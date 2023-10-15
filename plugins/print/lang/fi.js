@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("print","fi",{toolbar:"Tulosta"});
+﻿TEXTEDITOR.plugins.setLang("print","fi",{toolbar:"Tulosta"});

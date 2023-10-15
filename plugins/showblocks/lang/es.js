@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("showblocks","es",{toolbar:"Mostrar bloques"});
+﻿TEXTEDITOR.plugins.setLang("showblocks","es",{toolbar:"Mostrar bloques"});

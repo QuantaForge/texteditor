@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("save","hu",{toolbar:"Mentés"});
+﻿TEXTEDITOR.plugins.setLang("save","hu",{toolbar:"Mentés"});

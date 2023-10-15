@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("justify","de-ch",{block:"Blocksatz",center:"Zentriert",left:"Linksbündig",right:"Rechtsbündig"});
+﻿TEXTEDITOR.plugins.setLang("justify","de-ch",{block:"Blocksatz",center:"Zentriert",left:"Linksbündig",right:"Rechtsbündig"});

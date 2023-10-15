@@ -11,7 +11,7 @@ For licensing, see LICENSE.md or http://texteditor.com/license
 	<link rel="stylesheet" href="sample.css">
 	<script>
 		// Remove advanced tabs for all editors.
-		CKEDITOR.config.removeDialogTabs = 'image:advanced;link:advanced;flash:advanced;creatediv:advanced;editdiv:advanced';
+		TEXTEDITOR.config.removeDialogTabs = 'image:advanced;link:advanced;flash:advanced;creatediv:advanced;editdiv:advanced';
 	</script>
 </head>
 <body>
@@ -58,7 +58,7 @@ editor.setData( '&lt;p&gt;Hello world!&lt;/p&gt;' );
 			it provides a set of easy rules that allow adjusting filtering rules
 			and disabling the entire feature when necessary. The config property
 			responsible for this feature is <code><a class="samples"
-			href="http://docs.texteditor.com/#!/api/CKEDITOR.config-cfg-allowedContent">config.allowedContent</a></code>.
+			href="http://docs.texteditor.com/#!/api/TEXTEDITOR.config-cfg-allowedContent">config.allowedContent</a></code>.
 		</p>
 		<p>
 			By "automatic mode" is meant that loaded plugins decide which kind
@@ -67,7 +67,7 @@ editor.setData( '&lt;p&gt;Hello world!&lt;/p&gt;' );
 			automatically allowed. Each plugin is given a set
 			of predefined <abbr title="Advanced Content Filter">ACF</abbr> rules
 			that control the editor until <code><a class="samples"
-			href="http://docs.texteditor.com/#!/api/CKEDITOR.config-cfg-allowedContent">
+			href="http://docs.texteditor.com/#!/api/TEXTEDITOR.config-cfg-allowedContent">
 			config.allowedContent</a></code>
 			is defined manually.
 		</p>
@@ -76,11 +76,11 @@ editor.setData( '&lt;p&gt;Hello world!&lt;/p&gt;' );
 			only: no attributes, no styles, no other tags</strong>.
 			With <abbr title="Advanced Content Filter">ACF</abbr>
 			this is very simple. Basically set <code><a class="samples"
-			href="http://docs.texteditor.com/#!/api/CKEDITOR.config-cfg-allowedContent">
+			href="http://docs.texteditor.com/#!/api/TEXTEDITOR.config-cfg-allowedContent">
 			config.allowedContent</a></code> to <code>'p'</code>:
 		</p>
 <pre class="samples">
-var editor = CKEDITOR.replace( <em>textarea_id</em>, {
+var editor = TEXTEDITOR.replace( <em>textarea_id</em>, {
 	<strong>allowedContent: 'p'</strong>
 } );
 </pre>
@@ -110,11 +110,11 @@ alert( editor.getData() );
 			You may, of course, want CKEditor to avoid filtering of any kind.
 			To get rid of <abbr title="Advanced Content Filter">ACF</abbr>,
 			basically set <code><a class="samples"
-			href="http://docs.texteditor.com/#!/api/CKEDITOR.config-cfg-allowedContent">
+			href="http://docs.texteditor.com/#!/api/TEXTEDITOR.config-cfg-allowedContent">
 			config.allowedContent</a></code> to <code>true</code> like this:
 		</p>
 <pre class="samples">
-CKEDITOR.replace( <em>textarea_id</em>, {
+TEXTEDITOR.replace( <em>textarea_id</em>, {
 	<strong>allowedContent: true</strong>
 } );
 </pre>
@@ -159,7 +159,7 @@ CKEDITOR.replace( <em>textarea_id</em>, {
 			<p>
 				This editor is using default configuration ("automatic mode"). It means that
 				<code><a class="samples"
-				href="http://docs.texteditor.com/#!/api/CKEDITOR.config-cfg-allowedContent">
+				href="http://docs.texteditor.com/#!/api/TEXTEDITOR.config-cfg-allowedContent">
 				config.allowedContent</a></code> is defined by loaded plugins.
 				Each plugin extends filtering rules to make it's own associated content
 				available for the user.
@@ -171,7 +171,7 @@ CKEDITOR.replace( <em>textarea_id</em>, {
 
 		<script>
 
-			CKEDITOR.replace( 'editor1' );
+			TEXTEDITOR.replace( 'editor1' );
 
 		</script>
 	</div>
@@ -188,7 +188,7 @@ CKEDITOR.replace( <em>textarea_id</em>, {
 				<abbr title="Advanced Content Filter">ACF</abbr>:
 			</p>
 <pre class="samples">
-CKEDITOR.replace( 'editor2', {
+TEXTEDITOR.replace( 'editor2', {
 	allowedContent:
 		'h1 h2 h3 p blockquote strong em;' +
 		'a[!href];' +
@@ -244,7 +244,7 @@ CKEDITOR.replace( 'editor2', {
 				The same thing happened to subscript/superscript, strike, underline
 				(<code>&lt;u&gt;</code>, <code>&lt;sub&gt;</code>, <code>&lt;sup&gt;</code>
 				are disallowed by <code><a class="samples"
-				href="http://docs.texteditor.com/#!/api/CKEDITOR.config-cfg-allowedContent">
+				href="http://docs.texteditor.com/#!/api/TEXTEDITOR.config-cfg-allowedContent">
 				config.allowedContent</a></code>) and many other buttons.
 			</p>
 		</div>
@@ -253,7 +253,7 @@ CKEDITOR.replace( 'editor2', {
 		</textarea>
 		<script>
 
-			CKEDITOR.replace( 'editor2', {
+			TEXTEDITOR.replace( 'editor2', {
 				allowedContent:
 					'h1 h2 h3 p blockquote strong em;' +
 					'a[!href];' +
@@ -282,7 +282,7 @@ CKEDITOR.replace( 'editor2', {
 				as an alternative to a string-based definition.
 			</p>
 <pre class="samples">
-CKEDITOR.replace( 'editor3', {
+TEXTEDITOR.replace( 'editor3', {
 	allowedContent: {
 		'b i ul ol big small': true,
 		'h1 h2 h3 p blockquote li': {
@@ -303,7 +303,7 @@ CKEDITOR.replace( 'editor3', {
 		</textarea>
 		<script>
 
-			CKEDITOR.replace( 'editor3', {
+			TEXTEDITOR.replace( 'editor3', {
 				allowedContent: {
 					'b i ul ol big small': true,
 					'h1 h2 h3 p blockquote li': {
@@ -332,7 +332,7 @@ CKEDITOR.replace( 'editor3', {
 				This editor is using a custom set of plugins and buttons.
 			</p>
 <pre class="samples">
-CKEDITOR.replace( 'editor4', {
+TEXTEDITOR.replace( 'editor4', {
 	removePlugins: 'bidi,font,forms,flash,horizontalrule,iframe,justify,table,tabletools,smiley',
 	removeButtons: 'Anchor,Underline,Strike,Subscript,Superscript,Image',
 	format_tags: 'p;h1;h2;h3;pre;address'
@@ -354,7 +354,7 @@ CKEDITOR.replace( 'editor4', {
 		</textarea>
 		<script>
 
-			CKEDITOR.replace( 'editor4', {
+			TEXTEDITOR.replace( 'editor4', {
 				removePlugins: 'bidi,div,font,forms,flash,horizontalrule,iframe,justify,table,tabletools,smiley',
 				removeButtons: 'Anchor,Underline,Strike,Subscript,Superscript,Image',
 				format_tags: 'p;h1;h2;h3;pre;address'
@@ -404,7 +404,7 @@ CKEDITOR.replace( 'editor4', {
 			</p>
 
 <pre class="samples">
-CKEDITOR.replace( 'editor6', {
+TEXTEDITOR.replace( 'editor6', {
 	allowedContent: {
 		'b i ul ol big small': true,
 		'h1 h2 h3 p blockquote li': {
@@ -426,7 +426,7 @@ CKEDITOR.replace( 'editor6', {
 		</textarea>
 		<script>
 
-			CKEDITOR.replace( 'editor6', {
+			TEXTEDITOR.replace( 'editor6', {
 				allowedContent: {
 					'b i ul ol big small': true,
 					'h1 h2 h3 p blockquote li': {
@@ -459,11 +459,11 @@ CKEDITOR.replace( 'editor6', {
 				while allowing all other tags.
 			</p>
 <pre class="samples">
-CKEDITOR.replace( 'editor7', {
+TEXTEDITOR.replace( 'editor7', {
 	allowedContent: {
 		// Allow all content.
 		$1: {
-			elements: CKEDITOR.dtd,
+			elements: TEXTEDITOR.dtd,
 			attributes: true,
 			styles: true,
 			classes: true
@@ -478,11 +478,11 @@ CKEDITOR.replace( 'editor7', {
 		</textarea>
 		<script>
 
-			CKEDITOR.replace( 'editor7', {
+			TEXTEDITOR.replace( 'editor7', {
 				allowedContent: {
 					// allow all content
 					$1: {
-						elements: CKEDITOR.dtd,
+						elements: TEXTEDITOR.dtd,
 						attributes: true,
 						styles: true,
 						classes: true

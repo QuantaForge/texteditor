@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("preview","hr",{preview:"Pregledaj"});
+﻿TEXTEDITOR.plugins.setLang("preview","hr",{preview:"Pregledaj"});

@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("save","zh",{toolbar:"儲存"});
+﻿TEXTEDITOR.plugins.setLang("save","zh",{toolbar:"儲存"});

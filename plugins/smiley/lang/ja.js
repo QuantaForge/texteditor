@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("smiley","ja",{options:"絵文字オプション",title:"顔文字挿入",toolbar:"絵文字"});
+﻿TEXTEDITOR.plugins.setLang("smiley","ja",{options:"絵文字オプション",title:"顔文字挿入",toolbar:"絵文字"});

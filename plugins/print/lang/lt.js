@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("print","lt",{toolbar:"Spausdinti"});
+﻿TEXTEDITOR.plugins.setLang("print","lt",{toolbar:"Spausdinti"});

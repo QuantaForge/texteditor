@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("print","vi",{toolbar:"In"});
+﻿TEXTEDITOR.plugins.setLang("print","vi",{toolbar:"In"});

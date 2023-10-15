@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("selectall","et",{toolbar:"Kõige valimine"});
+﻿TEXTEDITOR.plugins.setLang("selectall","et",{toolbar:"Kõige valimine"});

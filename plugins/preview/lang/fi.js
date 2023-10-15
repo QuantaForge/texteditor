@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("preview","fi",{preview:"Esikatsele"});
+﻿TEXTEDITOR.plugins.setLang("preview","fi",{preview:"Esikatsele"});

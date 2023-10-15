@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("showblocks","mn",{toolbar:"Хавтангуудыг харуулах"});
+﻿TEXTEDITOR.plugins.setLang("showblocks","mn",{toolbar:"Хавтангуудыг харуулах"});

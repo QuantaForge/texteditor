@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("pagebreak","cs",{alt:"Konec stránky",toolbar:"Vložit konec stránky"});
+﻿TEXTEDITOR.plugins.setLang("pagebreak","cs",{alt:"Konec stránky",toolbar:"Vložit konec stránky"});

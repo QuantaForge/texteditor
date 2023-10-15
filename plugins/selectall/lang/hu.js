@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("selectall","hu",{toolbar:"Mindent kijelöl"});
+﻿TEXTEDITOR.plugins.setLang("selectall","hu",{toolbar:"Mindent kijelöl"});

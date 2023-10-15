@@ -33,7 +33,7 @@ For licensing, see LICENSE.md or http://texteditor.com/license
 		<p>
 			It is also possible to set a maximum height for the editor window. Once CKEditor
 			editing area reaches the value in pixels specified in the
-			<code><a class="samples" href="http://docs.texteditor.com/#!/api/CKEDITOR.config-cfg-autoGrow_maxHeight">autoGrow_maxHeight</a></code>
+			<code><a class="samples" href="http://docs.texteditor.com/#!/api/TEXTEDITOR.config-cfg-autoGrow_maxHeight">autoGrow_maxHeight</a></code>
 			configuration setting, scrollbars will be added and the editor window will no longer expand.
 		</p>
 		<p>
@@ -41,7 +41,7 @@ For licensing, see LICENSE.md or http://texteditor.com/license
 			<code>autoGrow_maxHeight</code> attribute, insert the following JavaScript call to your code:
 		</p>
 <pre class="samples">
-CKEDITOR.replace( '<em>textarea_id</em>', {
+TEXTEDITOR.replace( '<em>textarea_id</em>', {
 	<strong>extraPlugins: 'autogrow',</strong>
 	autoGrow_maxHeight: 800,
 
@@ -62,7 +62,7 @@ CKEDITOR.replace( '<em>textarea_id</em>', {
 			<textarea cols="80" id="editor1" name="editor1" rows="10">&lt;p&gt;This is some &lt;strong&gt;sample text&lt;/strong&gt;. You are using &lt;a href="http://texteditor.com/"&gt;CKEditor&lt;/a&gt;.&lt;/p&gt;</textarea>
 			<script>
 
-				CKEDITOR.replace( 'editor1', {
+				TEXTEDITOR.replace( 'editor1', {
 					extraPlugins: 'autogrow',
 					removePlugins: 'resize'
 				});
@@ -76,7 +76,7 @@ CKEDITOR.replace( '<em>textarea_id</em>', {
 			<textarea cols="80" id="editor2" name="editor2" rows="10">&lt;p&gt;This is some &lt;strong&gt;sample text&lt;/strong&gt;. You are using &lt;a href="http://texteditor.com/"&gt;CKEditor&lt;/a&gt;.&lt;/p&gt;</textarea>
 			<script>
 
-				CKEDITOR.replace( 'editor2', {
+				TEXTEDITOR.replace( 'editor2', {
 					extraPlugins: 'autogrow',
 					autoGrow_maxHeight: 400,
 					removePlugins: 'resize'

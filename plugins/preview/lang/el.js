@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("preview","el",{preview:"Προεπισκόπιση"});
+﻿TEXTEDITOR.plugins.setLang("preview","el",{preview:"Προεπισκόπιση"});

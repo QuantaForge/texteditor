@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("sourcedialog","mn",{toolbar:"Код",title:"Код"});
+﻿TEXTEDITOR.plugins.setLang("sourcedialog","mn",{toolbar:"Код",title:"Код"});

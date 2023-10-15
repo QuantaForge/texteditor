@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("save","pl",{toolbar:"Zapisz"});
+﻿TEXTEDITOR.plugins.setLang("save","pl",{toolbar:"Zapisz"});

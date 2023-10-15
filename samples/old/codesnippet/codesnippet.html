@@ -38,7 +38,7 @@ For licensing, see LICENSE.md or http://texteditor.com/license
 			library <a href="http://highlightjs.org">highlight.js</a>.
 		</p>
 		<p>
-			You can adjust the appearance of code snippets using the <code><a href="http://docs.texteditor.com/#!/api/CKEDITOR.config-cfg-codeSnippet_theme">codeSnippet_theme</a></code> configuration variable
+			You can adjust the appearance of code snippets using the <code><a href="http://docs.texteditor.com/#!/api/TEXTEDITOR.config-cfg-codeSnippet_theme">codeSnippet_theme</a></code> configuration variable
 			(see <a href="http://highlightjs.org/static/test.html">available themes</a>).
 		</p>
 		<p>
@@ -49,7 +49,7 @@ For licensing, see LICENSE.md or http://texteditor.com/license
 		</p>
 
 <pre class="samples" id="sampleConfig">
-CKEDITOR.replace( 'editor1', {
+TEXTEDITOR.replace( 'editor1', {
 	<strong>extraPlugins: 'codesnippet',</strong>
 	codeSnippet_theme: 'monokai_sublime'
 } );
@@ -99,7 +99,7 @@ CKEDITOR.replace( 'editor1', {
 		</p>
 
 <pre class="samples">
-CKEDITOR.inline( 'editable', {
+TEXTEDITOR.inline( 'editable', {
 	<strong>extraPlugins: 'codesnippet'</strong>
 } );
 </pre>
@@ -157,13 +157,13 @@ CKEDITOR.inline( 'editable', {
 
 	<p>
 		It also is possible to replace the default highlighter with any library using
-		the <a href="http://docs.texteditor.com/#!/api/CKEDITOR.plugins.codesnippet.highlighter">Highlighter API</a>
-		and the <a href="http://docs.texteditor.com/#!/api/CKEDITOR.plugins.codesnippet-method-setHighlighter"><code>editor.plugins.codesnippet.setHighlighter()</code></a> method.
+		the <a href="http://docs.texteditor.com/#!/api/TEXTEDITOR.plugins.codesnippet.highlighter">Highlighter API</a>
+		and the <a href="http://docs.texteditor.com/#!/api/TEXTEDITOR.plugins.codesnippet-method-setHighlighter"><code>editor.plugins.codesnippet.setHighlighter()</code></a> method.
 	</p>
 
 	<script>
 		( function() {
-			CKEDITOR.disableAutoInline = true;
+			TEXTEDITOR.disableAutoInline = true;
 
 			var config = {
 				extraPlugins: 'codesnippet',
@@ -174,9 +174,9 @@ CKEDITOR.inline( 'editable', {
 				height: 400
 			};
 
-			CKEDITOR.replace( 'editor1', config );
+			TEXTEDITOR.replace( 'editor1', config );
 
-			CKEDITOR.inline( 'editable', CKEDITOR.tools.extend( {}, config, {
+			TEXTEDITOR.inline( 'editable', TEXTEDITOR.tools.extend( {}, config, {
 				extraPlugins: 'codesnippet'
 			}, true ) );
 
@@ -186,16 +186,16 @@ CKEDITOR.inline( 'editable', {
 				var templates = [
 						'monokai_sublime', 'default', 'arta', 'ascetic', 'atelier-dune.dark', 'atelier-dune.light', 'atelier-forest.dark', 'atelier-forest.light', 'atelier-heath.dark', 'atelier-heath.light', 'atelier-lakeside.dark', 'atelier-lakeside.light', 'atelier-seaside.dark', 'atelier-seaside.light', 'brown_paper', 'dark', 'docco', 'far', 'foundation', 'github', 'googlecode', 'idea', 'ir_black', 'magula', 'mono-blue', 'monokai', 'obsidian', 'paraiso.dark', 'paraiso.light', 'pojoaque', 'railscasts', 'rainbow', 'school_book', 'solarized_dark', 'solarized_light', 'sunburst', 'tomorrow-night-blue', 'tomorrow-night-bright', 'tomorrow-night-eighties', 'tomorrow-night', 'tomorrow', 'vs', 'xcode', 'zenburn'
 					],
-					pre = CKEDITOR.document.getById( 'sampleConfig' ),
-					select = CKEDITOR.document.getById( 'select' ),
-					codeTemplate = 'CKEDITOR.replace( \'editor1\', {\n' +
+					pre = TEXTEDITOR.document.getById( 'sampleConfig' ),
+					select = TEXTEDITOR.document.getById( 'select' ),
+					codeTemplate = 'TEXTEDITOR.replace( \'editor1\', {\n' +
 						'	<strong>extraPlugins: \'codesnippet\',</strong>\n' +
 						'	codeSnippet_theme: \'{tpl}\'\n' +
 					'} );',
 					name, option;
 
 				while ( ( name = templates.shift() ) ) {
-					option = CKEDITOR.document.createElement( 'option', {
+					option = TEXTEDITOR.document.createElement( 'option', {
 						attributes: {
 							value: name
 						}
@@ -206,10 +206,10 @@ CKEDITOR.inline( 'editable', {
 				}
 
 				select.$.onchange = function() {
-					if ( CKEDITOR.instances.editor1 )
-						CKEDITOR.instances.editor1.destroy();
+					if ( TEXTEDITOR.instances.editor1 )
+						TEXTEDITOR.instances.editor1.destroy();
 
-					CKEDITOR.replace( 'editor1', CKEDITOR.tools.extend( {}, config, {
+					TEXTEDITOR.replace( 'editor1', TEXTEDITOR.tools.extend( {}, config, {
 						codeSnippet_theme: this.value
 					}, true ) );
 
@@ -217,8 +217,8 @@ CKEDITOR.inline( 'editable', {
 				};
 			}
 
-			if ( CKEDITOR.env.ie && CKEDITOR.env.version == 8 )
-				CKEDITOR.document.getById( 'ie8-warning' ).addClass( 'warning' );
+			if ( TEXTEDITOR.env.ie && TEXTEDITOR.env.version == 8 )
+				TEXTEDITOR.document.getById( 'ie8-warning' ).addClass( 'warning' );
 		}() );
 	</script>
 

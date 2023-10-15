@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("save","ca",{toolbar:"Desa"});
+﻿TEXTEDITOR.plugins.setLang("save","ca",{toolbar:"Desa"});

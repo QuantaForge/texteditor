@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("sourcedialog","sr-latn",{toolbar:"Kôd",title:"Kôd"});
+﻿TEXTEDITOR.plugins.setLang("sourcedialog","sr-latn",{toolbar:"Kôd",title:"Kôd"});

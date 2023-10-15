@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("selectall","lv",{toolbar:"Iezīmēt visu"});
+﻿TEXTEDITOR.plugins.setLang("selectall","lv",{toolbar:"Iezīmēt visu"});

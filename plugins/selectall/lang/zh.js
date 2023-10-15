@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("selectall","zh",{toolbar:"全選"});
+﻿TEXTEDITOR.plugins.setLang("selectall","zh",{toolbar:"全選"});

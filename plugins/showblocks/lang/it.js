@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("showblocks","it",{toolbar:"Visualizza Blocchi"});
+﻿TEXTEDITOR.plugins.setLang("showblocks","it",{toolbar:"Visualizza Blocchi"});

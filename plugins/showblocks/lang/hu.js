@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("showblocks","hu",{toolbar:"Blokkok megjelenítése"});
+﻿TEXTEDITOR.plugins.setLang("showblocks","hu",{toolbar:"Blokkok megjelenítése"});

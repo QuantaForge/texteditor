@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("newpage","gu",{toolbar:"નવુ પાનું"});
+﻿TEXTEDITOR.plugins.setLang("newpage","gu",{toolbar:"નવુ પાનું"});

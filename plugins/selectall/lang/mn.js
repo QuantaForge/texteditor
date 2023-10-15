@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("selectall","mn",{toolbar:"Бүгдийг нь сонгох"});
+﻿TEXTEDITOR.plugins.setLang("selectall","mn",{toolbar:"Бүгдийг нь сонгох"});

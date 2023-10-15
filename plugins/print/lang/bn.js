@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("print","bn",{toolbar:"প্রিন্ট করি"});
+﻿TEXTEDITOR.plugins.setLang("print","bn",{toolbar:"প্রিন্ট করি"});

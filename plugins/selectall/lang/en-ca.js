@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("selectall","en-ca",{toolbar:"Select All"});
+﻿TEXTEDITOR.plugins.setLang("selectall","en-ca",{toolbar:"Select All"});

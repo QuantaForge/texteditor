@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("selectall","ug",{toolbar:"ھەممىنى تاللا"});
+﻿TEXTEDITOR.plugins.setLang("selectall","ug",{toolbar:"ھەممىنى تاللا"});

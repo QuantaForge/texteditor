@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("showblocks","gl",{toolbar:"Amosar os bloques"});
+﻿TEXTEDITOR.plugins.setLang("showblocks","gl",{toolbar:"Amosar os bloques"});

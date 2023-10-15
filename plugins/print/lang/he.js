@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("print","he",{toolbar:"הדפסה"});
+﻿TEXTEDITOR.plugins.setLang("print","he",{toolbar:"הדפסה"});

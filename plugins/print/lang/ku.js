@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("print","ku",{toolbar:"چاپکردن"});
+﻿TEXTEDITOR.plugins.setLang("print","ku",{toolbar:"چاپکردن"});

@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("print","is",{toolbar:"Prenta"});
+﻿TEXTEDITOR.plugins.setLang("print","is",{toolbar:"Prenta"});

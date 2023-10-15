@@ -46,12 +46,12 @@ For licensing, see LICENSE.md or http://texteditor.com/license
 		</p>
 <pre class="samples">
 // Inline editor.
-CKEDITOR.inline( 'editable', {
+TEXTEDITOR.inline( 'editable', {
 	<strong>extraPlugins: 'sourcedialog'</strong>
 });
 
 // Classic (iframe-based) editor.
-CKEDITOR.replace( 'textarea_id', {
+TEXTEDITOR.replace( 'textarea_id', {
 	<strong>extraPlugins: 'sourcedialog'</strong>,
 	removePlugins: 'sourcearea'
 });
@@ -90,7 +90,7 @@ CKEDITOR.replace( 'textarea_id', {
 	<script>
 
 		// We need to turn off the automatic editor creation first.
-		CKEDITOR.disableAutoInline = true;
+		TEXTEDITOR.disableAutoInline = true;
 
 		var config = {
 			toolbarGroups: [
@@ -102,8 +102,8 @@ CKEDITOR.replace( 'textarea_id', {
 			removePlugins: 'sourcearea'
 		}
 
-		CKEDITOR.inline( 'editor1', config );
-		CKEDITOR.replace( 'editor2', config );
+		TEXTEDITOR.inline( 'editor1', config );
+		TEXTEDITOR.replace( 'editor2', config );
 
 	</script>
 	<div id="footer">

@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("print","da",{toolbar:"Udskriv"});
+﻿TEXTEDITOR.plugins.setLang("print","da",{toolbar:"Udskriv"});

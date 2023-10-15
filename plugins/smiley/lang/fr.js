@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("smiley","fr",{options:"Options des frimousses",title:"Insérer une frimousse",toolbar:"Frimousse"});
+﻿TEXTEDITOR.plugins.setLang("smiley","fr",{options:"Options des frimousses",title:"Insérer une frimousse",toolbar:"Frimousse"});

@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("showblocks","ku",{toolbar:"نیشاندانی بەربەستەکان"});
+﻿TEXTEDITOR.plugins.setLang("showblocks","ku",{toolbar:"نیشاندانی بەربەستەکان"});

@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("newpage","az",{toolbar:"Yeni səhifə"});
+﻿TEXTEDITOR.plugins.setLang("newpage","az",{toolbar:"Yeni səhifə"});

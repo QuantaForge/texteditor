@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("newpage","tt",{toolbar:"Яңа бит"});
+﻿TEXTEDITOR.plugins.setLang("newpage","tt",{toolbar:"Яңа бит"});

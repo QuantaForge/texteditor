@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("selectall","cy",{toolbar:"Dewis Popeth"});
+﻿TEXTEDITOR.plugins.setLang("selectall","cy",{toolbar:"Dewis Popeth"});

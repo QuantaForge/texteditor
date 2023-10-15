@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("save","gu",{toolbar:"સેવ"});
+﻿TEXTEDITOR.plugins.setLang("save","gu",{toolbar:"સેવ"});

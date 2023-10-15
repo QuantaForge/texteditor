@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("print","af",{toolbar:"Druk"});
+﻿TEXTEDITOR.plugins.setLang("print","af",{toolbar:"Druk"});

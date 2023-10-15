@@ -3,10 +3,10 @@
  * For licensing, see LICENSE.md or http://texteditor.com/license
  */
 
-CKEDITOR.editorConfig = function( config ) {
+TEXTEDITOR.editorConfig = function( config ) {
 	// Define changes to default configuration here.
 	// For complete reference see:
-	// http://docs.texteditor.com/#!/api/CKEDITOR.config
+	// http://docs.texteditor.com/#!/api/TEXTEDITOR.config
 
 	// The toolbar groups arrangement, optimized for two toolbar rows.
 	config.toolbarGroups = [

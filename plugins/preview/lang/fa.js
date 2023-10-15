@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("preview","fa",{preview:"پیشنمایش"});
+﻿TEXTEDITOR.plugins.setLang("preview","fa",{preview:"پیشنمایش"});

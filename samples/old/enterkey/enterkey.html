@@ -22,7 +22,7 @@ For licensing, see LICENSE.md or http://texteditor.com/license
 				editor.destroy( true );
 
 			// Create the editor again, with the appropriate settings.
-			editor = CKEDITOR.replace( 'editor1', {
+			editor = TEXTEDITOR.replace( 'editor1', {
 				extraPlugins: 'enterkey',
 				enterMode: Number( document.getElementById( 'xEnter' ).value ),
 				shiftEnterMode: Number( document.getElementById( 'xShiftEnter' ).value )
@@ -44,8 +44,8 @@ For licensing, see LICENSE.md or http://texteditor.com/license
 		<p>
 			This sample shows how to configure the <em>Enter</em> and <em>Shift+Enter</em> keys
 			to perform actions specified in the
-			<a class="samples" href="http://docs.texteditor.com/#!/api/CKEDITOR.config-cfg-enterMode"><code>enterMode</code></a>
-			and <a class="samples" href="http://docs.texteditor.com/#!/api/CKEDITOR.config-cfg-shiftEnterMode"><code>shiftEnterMode</code></a>
+			<a class="samples" href="http://docs.texteditor.com/#!/api/TEXTEDITOR.config-cfg-enterMode"><code>enterMode</code></a>
+			and <a class="samples" href="http://docs.texteditor.com/#!/api/TEXTEDITOR.config-cfg-shiftEnterMode"><code>shiftEnterMode</code></a>
 			parameters, respectively.
 	 		You can choose from the following options:
 		</p>
@@ -58,8 +58,8 @@ For licensing, see LICENSE.md or http://texteditor.com/license
 			The sample code below shows how to configure CKEditor to create a <code>&lt;div&gt;</code> block when <em>Enter</em> key is pressed.
 		</p>
 <pre class="samples">
-CKEDITOR.replace( '<em>textarea_id</em>', {
-	<strong>enterMode: CKEDITOR.ENTER_DIV</strong>
+TEXTEDITOR.replace( '<em>textarea_id</em>', {
+	<strong>enterMode: TEXTEDITOR.ENTER_DIV</strong>
 });</pre>
 		<p>
 			Note that <code><em>textarea_id</em></code> in the code above is the <code>id</code> attribute of

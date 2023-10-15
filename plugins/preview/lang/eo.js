@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("preview","eo",{preview:"Vidigi Aspekton"});
+﻿TEXTEDITOR.plugins.setLang("preview","eo",{preview:"Vidigi Aspekton"});

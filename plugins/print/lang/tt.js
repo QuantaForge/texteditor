@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("print","tt",{toolbar:"Бастыру"});
+﻿TEXTEDITOR.plugins.setLang("print","tt",{toolbar:"Бастыру"});

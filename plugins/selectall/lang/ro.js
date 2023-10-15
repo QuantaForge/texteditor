@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("selectall","ro",{toolbar:"Selectează tot"});
+﻿TEXTEDITOR.plugins.setLang("selectall","ro",{toolbar:"Selectează tot"});

@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("save","sr-latn",{toolbar:"Sačuvaj"});
+﻿TEXTEDITOR.plugins.setLang("save","sr-latn",{toolbar:"Sačuvaj"});

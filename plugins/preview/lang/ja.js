@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("preview","ja",{preview:"プレビュー"});
+﻿TEXTEDITOR.plugins.setLang("preview","ja",{preview:"プレビュー"});

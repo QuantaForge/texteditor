@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("save","sq",{toolbar:"Ruaje"});
+﻿TEXTEDITOR.plugins.setLang("save","sq",{toolbar:"Ruaje"});

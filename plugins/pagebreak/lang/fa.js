@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("pagebreak","fa",{alt:"شکستن صفحه",toolbar:"گنجاندن شکستگی پایان برگه"});
+﻿TEXTEDITOR.plugins.setLang("pagebreak","fa",{alt:"شکستن صفحه",toolbar:"گنجاندن شکستگی پایان برگه"});

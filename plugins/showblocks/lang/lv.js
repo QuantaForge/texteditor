@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("showblocks","lv",{toolbar:"Parādīt blokus"});
+﻿TEXTEDITOR.plugins.setLang("showblocks","lv",{toolbar:"Parādīt blokus"});

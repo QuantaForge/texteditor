@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("showblocks","ja",{toolbar:"ブロック表示"});
+﻿TEXTEDITOR.plugins.setLang("showblocks","ja",{toolbar:"ブロック表示"});

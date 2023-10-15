@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("print","fa",{toolbar:"چاپ"});
+﻿TEXTEDITOR.plugins.setLang("print","fa",{toolbar:"چاپ"});

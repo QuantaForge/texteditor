@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("showblocks","az",{toolbar:"Blokları göstər"});
+﻿TEXTEDITOR.plugins.setLang("showblocks","az",{toolbar:"Blokları göstər"});

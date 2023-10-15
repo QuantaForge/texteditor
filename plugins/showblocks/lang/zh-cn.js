@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("showblocks","zh-cn",{toolbar:"显示区块"});
+﻿TEXTEDITOR.plugins.setLang("showblocks","zh-cn",{toolbar:"显示区块"});

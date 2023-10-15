@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("colordialog","tr",{clear:"Temizle",highlight:"İşaretle",options:"Renk Seçenekleri",selected:"Seçilmiş",title:"Renk seç"});
+﻿TEXTEDITOR.plugins.setLang("colordialog","tr",{clear:"Temizle",highlight:"İşaretle",options:"Renk Seçenekleri",selected:"Seçilmiş",title:"Renk seç"});

@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("smiley","mk",{options:"Smiley Options",title:"Insert a Smiley",toolbar:"Smiley"});
+﻿TEXTEDITOR.plugins.setLang("smiley","mk",{options:"Smiley Options",title:"Insert a Smiley",toolbar:"Smiley"});

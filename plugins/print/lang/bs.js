@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("print","bs",{toolbar:"Štampaj"});
+﻿TEXTEDITOR.plugins.setLang("print","bs",{toolbar:"Štampaj"});

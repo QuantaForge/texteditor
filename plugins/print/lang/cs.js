@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("print","cs",{toolbar:"Tisk"});
+﻿TEXTEDITOR.plugins.setLang("print","cs",{toolbar:"Tisk"});

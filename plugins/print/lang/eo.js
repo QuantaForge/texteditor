@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("print","eo",{toolbar:"Presi"});
+﻿TEXTEDITOR.plugins.setLang("print","eo",{toolbar:"Presi"});

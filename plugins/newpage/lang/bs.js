@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("newpage","bs",{toolbar:"Novi dokument"});
+﻿TEXTEDITOR.plugins.setLang("newpage","bs",{toolbar:"Novi dokument"});

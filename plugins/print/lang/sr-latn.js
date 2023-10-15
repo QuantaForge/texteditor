@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("print","sr-latn",{toolbar:"Štampa"});
+﻿TEXTEDITOR.plugins.setLang("print","sr-latn",{toolbar:"Štampa"});

@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("smiley","tt",{options:"Смайл көйләүләре",title:"Смайл өстәү",toolbar:"Смайл"});
+﻿TEXTEDITOR.plugins.setLang("smiley","tt",{options:"Смайл көйләүләре",title:"Смайл өстәү",toolbar:"Смайл"});

@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("newpage","ug",{toolbar:"يېڭى بەت"});
+﻿TEXTEDITOR.plugins.setLang("newpage","ug",{toolbar:"يېڭى بەت"});

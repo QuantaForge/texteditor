@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("save","cs",{toolbar:"Uložit"});
+﻿TEXTEDITOR.plugins.setLang("save","cs",{toolbar:"Uložit"});

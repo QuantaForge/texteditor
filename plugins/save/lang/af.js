@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("save","af",{toolbar:"Bewaar"});
+﻿TEXTEDITOR.plugins.setLang("save","af",{toolbar:"Bewaar"});

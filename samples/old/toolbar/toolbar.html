@@ -28,7 +28,7 @@ For licensing, see LICENSE.md or http://texteditor.com/license
 
 		<p>Since CKEditor 4 there are two ways to configure toolbar buttons.</p>
 
-		<h2 class="samples">By <a href="http://docs.texteditor.com/#!/api/CKEDITOR.config-cfg-toolbar">config.toolbar</a></h2>
+		<h2 class="samples">By <a href="http://docs.texteditor.com/#!/api/TEXTEDITOR.config-cfg-toolbar">config.toolbar</a></h2>
 
 		<p>
 			You can explicitly define which buttons are displayed in which groups and in which order.
@@ -39,7 +39,7 @@ For licensing, see LICENSE.md or http://texteditor.com/license
 		<p>To add a CKEditor instance with custom toolbar setting, insert the following JavaScript call to your code:</p>
 
 		<pre class="samples">
-CKEDITOR.replace( <em>'textarea_id'</em>, {
+TEXTEDITOR.replace( <em>'textarea_id'</em>, {
 	<strong>toolbar:</strong> [
 		{ name: 'document', items: [ 'Source', '-', 'NewPage', 'Preview', '-', 'Templates' ] },	// Defines toolbar group with name (used to create voice label) and items in 3 subgroups.
 		[ 'Cut', 'Copy', 'Paste', 'PasteText', 'PasteFromWord', '-', 'Undo', 'Redo' ],			// Defines toolbar group without name.
@@ -48,7 +48,7 @@ CKEDITOR.replace( <em>'textarea_id'</em>, {
 	]
 });</pre>
 
-		<h2 class="samples">By <a href="http://docs.texteditor.com/#!/api/CKEDITOR.config-cfg-toolbarGroups">config.toolbarGroups</a></h2>
+		<h2 class="samples">By <a href="http://docs.texteditor.com/#!/api/TEXTEDITOR.config-cfg-toolbarGroups">config.toolbarGroups</a></h2>
 
 		<p>
 			You can define which groups of buttons (like e.g. <code>basicstyles</code>, <code>clipboard</code>
@@ -61,7 +61,7 @@ CKEDITOR.replace( <em>'textarea_id'</em>, {
 		<p>To add a CKEditor instance with custom toolbar groups setting, insert the following JavaScript call to your code:</p>
 
 		<pre class="samples">
-CKEDITOR.replace( <em>'textarea_id'</em>, {
+TEXTEDITOR.replace( <em>'textarea_id'</em>, {
 	<strong>toolbarGroups:</strong> [
 		{ name: 'document',	   groups: [ 'mode', 'document' ] },			// Displays document group with its two subgroups.
  		{ name: 'clipboard',   groups: [ 'clipboard', 'undo' ] },			// Group's name will be used to create voice label.
@@ -99,19 +99,19 @@ CKEDITOR.replace( <em>'textarea_id'</em>, {
 
 	var buttonsNames;
 
-	CKEDITOR.config.extraPlugins = 'toolbar';
+	TEXTEDITOR.config.extraPlugins = 'toolbar';
 
-	CKEDITOR.on( 'instanceReady', function( evt ) {
+	TEXTEDITOR.on( 'instanceReady', function( evt ) {
 		var editor = evt.editor,
 			editorCurrent = editor.name == 'editorCurrent',
 			defaultToolbar = !( editor.config.toolbar || editor.config.toolbarGroups || editor.config.removeButtons ),
-			pre = CKEDITOR.document.getById( editor.name + 'Cfg' ),
+			pre = TEXTEDITOR.document.getById( editor.name + 'Cfg' ),
 			output = '';
 
 		if ( editorCurrent ) {
 			// If default toolbar configuration has been modified, show "current toolbar" section.
 			if ( !defaultToolbar )
-				CKEDITOR.document.getById( 'currentToolbar' ).show();
+				TEXTEDITOR.document.getById( 'currentToolbar' ).show();
 			else
 				return;
 		}
@@ -136,11 +136,11 @@ CKEDITOR.replace( <em>'textarea_id'</em>, {
 
 		// Recreate to avoid old IE from loosing whitespaces on filling <pre> content.
 		var preOutput = pre.getOuterHtml().replace( /(?=<\/)/, output );
-		CKEDITOR.dom.element.createFromHtml( preOutput ).replace( pre );
+		TEXTEDITOR.dom.element.createFromHtml( preOutput ).replace( pre );
 	} );
 
-	CKEDITOR.replace( 'editorCurrent', { height: 100 } );
-	CKEDITOR.replace( 'editorFull', {
+	TEXTEDITOR.replace( 'editorCurrent', { height: 100 } );
+	TEXTEDITOR.replace( 'editorFull', {
 		// Reset toolbar settings, so full toolbar will be generated automatically.
 		toolbar: null,
 		toolbarGroups: null,
@@ -166,7 +166,7 @@ CKEDITOR.replace( <em>'textarea_id'</em>, {
 
 		if ( typeof group == 'string' )
 			return '\'' + group + '\'';
-		if ( CKEDITOR.tools.isArray( group ) )
+		if ( TEXTEDITOR.tools.isArray( group ) )
 			return dumpToolbarItems( group );
 		// Skip group when printing entire toolbar configuration and there are no items in this group.
 		if ( !printGroups && !group.items )
@@ -196,7 +196,7 @@ CKEDITOR.replace( <em>'textarea_id'</em>, {
 			if ( typeof item == 'string' )
 				names.push( item );
 			else {
-				if ( item.type == CKEDITOR.UI_SEPARATOR )
+				if ( item.type == TEXTEDITOR.UI_SEPARATOR )
 					names.push( '-' );
 				else
 					names.push( buttonsNames[ item.name ] );

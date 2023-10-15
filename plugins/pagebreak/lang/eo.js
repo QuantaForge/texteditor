@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("pagebreak","eo",{alt:"Paĝavanco",toolbar:"Enmeti Paĝavancon por Presado"});
+﻿TEXTEDITOR.plugins.setLang("pagebreak","eo",{alt:"Paĝavanco",toolbar:"Enmeti Paĝavancon por Presado"});

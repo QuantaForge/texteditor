@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("sourcedialog","th",{toolbar:"ดูรหัส HTML",title:"ดูรหัส HTML"});
+﻿TEXTEDITOR.plugins.setLang("sourcedialog","th",{toolbar:"ดูรหัส HTML",title:"ดูรหัส HTML"});

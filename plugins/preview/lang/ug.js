@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("preview","ug",{preview:"ئالدىن كۆزەت"});
+﻿TEXTEDITOR.plugins.setLang("preview","ug",{preview:"ئالدىن كۆزەت"});

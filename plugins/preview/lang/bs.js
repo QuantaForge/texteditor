@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("preview","bs",{preview:"Prikaži"});
+﻿TEXTEDITOR.plugins.setLang("preview","bs",{preview:"Prikaži"});

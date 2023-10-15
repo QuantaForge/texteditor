@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("selectall","ja",{toolbar:"すべて選択"});
+﻿TEXTEDITOR.plugins.setLang("selectall","ja",{toolbar:"すべて選択"});

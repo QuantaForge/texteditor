@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("preview","sl",{preview:"Predogled"});
+﻿TEXTEDITOR.plugins.setLang("preview","sl",{preview:"Predogled"});

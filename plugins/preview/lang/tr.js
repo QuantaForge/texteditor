@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("preview","tr",{preview:"Ön İzleme"});
+﻿TEXTEDITOR.plugins.setLang("preview","tr",{preview:"Ön İzleme"});

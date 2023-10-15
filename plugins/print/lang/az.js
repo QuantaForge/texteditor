@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("print","az",{toolbar:"Çap et"});
+﻿TEXTEDITOR.plugins.setLang("print","az",{toolbar:"Çap et"});

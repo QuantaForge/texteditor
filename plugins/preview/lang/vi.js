@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("preview","vi",{preview:"Xem trước"});
+﻿TEXTEDITOR.plugins.setLang("preview","vi",{preview:"Xem trước"});

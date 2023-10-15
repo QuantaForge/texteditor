@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("sourcedialog","fa",{toolbar:"منبع",title:"منبع"});
+﻿TEXTEDITOR.plugins.setLang("sourcedialog","fa",{toolbar:"منبع",title:"منبع"});

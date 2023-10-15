@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("sourcedialog","oc",{toolbar:"Font",title:"Font"});
+﻿TEXTEDITOR.plugins.setLang("sourcedialog","oc",{toolbar:"Font",title:"Font"});

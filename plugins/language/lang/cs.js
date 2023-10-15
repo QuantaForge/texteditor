@@ -2,4 +2,4 @@
  Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  For licensing, see LICENSE.md or http://texteditor.com/license
 */
-CKEDITOR.plugins.setLang("language","cs",{button:"Nastavit jazyk",remove:"Odstranit jazyk"});
+TEXTEDITOR.plugins.setLang("language","cs",{button:"Nastavit jazyk",remove:"Odstranit jazyk"});

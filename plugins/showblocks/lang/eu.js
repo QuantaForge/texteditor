@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("showblocks","eu",{toolbar:"Erakutsi blokeak"});
+﻿TEXTEDITOR.plugins.setLang("showblocks","eu",{toolbar:"Erakutsi blokeak"});

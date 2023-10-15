@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("selectall","fi",{toolbar:"Valitse kaikki"});
+﻿TEXTEDITOR.plugins.setLang("selectall","fi",{toolbar:"Valitse kaikki"});

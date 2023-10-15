@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("print","nl",{toolbar:"Afdrukken"});
+﻿TEXTEDITOR.plugins.setLang("print","nl",{toolbar:"Afdrukken"});

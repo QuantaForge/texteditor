@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("preview","ku",{preview:"پێشبینین"});
+﻿TEXTEDITOR.plugins.setLang("preview","ku",{preview:"پێشبینین"});

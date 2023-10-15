@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("showblocks","ug",{toolbar:"بۆلەكنى كۆرسەت"});
+﻿TEXTEDITOR.plugins.setLang("showblocks","ug",{toolbar:"بۆلەكنى كۆرسەت"});

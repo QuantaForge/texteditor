@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("selectall","sv",{toolbar:"Markera allt"});
+﻿TEXTEDITOR.plugins.setLang("selectall","sv",{toolbar:"Markera allt"});

@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("print","pt-br",{toolbar:"Imprimir"});
+﻿TEXTEDITOR.plugins.setLang("print","pt-br",{toolbar:"Imprimir"});

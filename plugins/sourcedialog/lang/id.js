@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("sourcedialog","id",{toolbar:"Sumber",title:"Sumber"});
+﻿TEXTEDITOR.plugins.setLang("sourcedialog","id",{toolbar:"Sumber",title:"Sumber"});

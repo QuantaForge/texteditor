@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("newpage","cy",{toolbar:"Tudalen Newydd"});
+﻿TEXTEDITOR.plugins.setLang("newpage","cy",{toolbar:"Tudalen Newydd"});

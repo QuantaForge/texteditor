@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("print","sq",{toolbar:"Shtype"});
+﻿TEXTEDITOR.plugins.setLang("print","sq",{toolbar:"Shtype"});

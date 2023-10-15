@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("save","eo",{toolbar:"Konservi"});
+﻿TEXTEDITOR.plugins.setLang("save","eo",{toolbar:"Konservi"});

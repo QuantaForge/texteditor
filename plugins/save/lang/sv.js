@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("save","sv",{toolbar:"Spara"});
+﻿TEXTEDITOR.plugins.setLang("save","sv",{toolbar:"Spara"});

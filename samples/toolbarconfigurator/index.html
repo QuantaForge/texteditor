@@ -11,8 +11,8 @@ For licensing, see LICENSE.md or http://texteditor.com/license
 	<title>Toolbar Configurator</title>
 	<script src="../../texteditor.js"></script>
 	<script>
-		if ( CKEDITOR.env.ie && CKEDITOR.env.version < 9 )
-			CKEDITOR.tools.enableHtml5Elements( document );
+		if ( TEXTEDITOR.env.ie && TEXTEDITOR.env.version < 9 )
+			TEXTEDITOR.tools.enableHtml5Elements( document );
 	</script>
 	<link rel="stylesheet" href="lib/codemirror/codemirror.css">
 	<link rel="stylesheet" href="lib/codemirror/show-hint.css">
@@ -104,7 +104,7 @@ For licensing, see LICENSE.md or http://texteditor.com/license
 				<div class="grid-container grid-container-nested">
 					<div class="basic">
 						<div class="grid-width-50">
-							<p>Arrange <a href="http://docs.texteditor.com/#!/api/CKEDITOR.config-cfg-toolbarGroups">toolbar groups</a>, toggle <a href="http://docs.texteditor.com/#!/api/CKEDITOR.config-cfg-removeButtons">button visibility</a> according to your needs and get your toolbar configuration.</p>
+							<p>Arrange <a href="http://docs.texteditor.com/#!/api/TEXTEDITOR.config-cfg-toolbarGroups">toolbar groups</a>, toggle <a href="http://docs.texteditor.com/#!/api/TEXTEDITOR.config-cfg-removeButtons">button visibility</a> according to your needs and get your toolbar configuration.</p>
 							<p>You can replace the content of the <a href="../../config.js"><code>config.js</code></a> file with the generated configuration. If you already set some configuration options you will need to merge both configurations.</p>
 						</div>
 						<div class="grid-width-50">
@@ -114,7 +114,7 @@ For licensing, see LICENSE.md or http://texteditor.com/license
 					</div>
 					<div class="advanced" style="display: none;">
 						<div class="grid-width-50">
-							<p>With this code editor you can edit your <a href="http://docs.texteditor.com/#!/api/CKEDITOR.config-cfg-toolbar">toolbar configuration</a> live.</p>
+							<p>With this code editor you can edit your <a href="http://docs.texteditor.com/#!/api/TEXTEDITOR.config-cfg-toolbar">toolbar configuration</a> live.</p>
 							<p>You can replace the content of the <a href="../../config.js"><code>config.js</code></a> file with the generated configuration. If you already set some configuration options you will need to merge both configurations.</p>
 						</div>
 						<div class="grid-width-50">
@@ -155,13 +155,13 @@ For licensing, see LICENSE.md or http://texteditor.com/license
 		'use strict';
 
 		var mode = ( window.location.hash.substr( 1 ) === 'advanced' ) ? 'advanced' : 'basic',
-			configuratorSection = CKEDITOR.document.findOne( 'main > .grid-container.configurator' ),
-			basicInstruction = CKEDITOR.document.findOne( '#help-content .basic' ),
-			advancedInstruction = CKEDITOR.document.findOne( '#help-content .advanced' ),
+			configuratorSection = TEXTEDITOR.document.findOne( 'main > .grid-container.configurator' ),
+			basicInstruction = TEXTEDITOR.document.findOne( '#help-content .basic' ),
+			advancedInstruction = TEXTEDITOR.document.findOne( '#help-content .advanced' ),
 
 			// Configurator mode switcher.
-			modeSwitchBasic = CKEDITOR.document.getById( 'radio-basic' ),
-			modeSwitchAdvanced = CKEDITOR.document.getById( 'radio-advanced' );
+			modeSwitchBasic = TEXTEDITOR.document.getById( 'radio-basic' ),
+			modeSwitchAdvanced = TEXTEDITOR.document.getById( 'radio-advanced' );
 
 		// Initial setup
 		function updateSwitcher() {
@@ -174,7 +174,7 @@ For licensing, see LICENSE.md or http://texteditor.com/license
 
 		updateSwitcher();
 
-		CKEDITOR.document.getWindow().on( 'hashchange', function( e ) {
+		TEXTEDITOR.document.getWindow().on( 'hashchange', function( e ) {
 			var hash = window.location.hash.substr( 1 );
 			if ( !( hash === 'advanced' || hash === 'basic' ) ) {
 				return;
@@ -183,7 +183,7 @@ For licensing, see LICENSE.md or http://texteditor.com/license
 			onToolbarsDone( mode );
 		} );
 
-		CKEDITOR.document.getWindow().on( 'resize', function() {
+		TEXTEDITOR.document.getWindow().on( 'resize', function() {
 			updateToolbar( ( mode === 'basic' ? toolbarModifier : toolbarTextModifier )[ 'editorInstance' ] );
 		} );
 
@@ -235,7 +235,7 @@ For licensing, see LICENSE.md or http://texteditor.com/license
 		toolbarModifier.init( onToolbarInit );
 		toolbarModifier.onRefresh = onRefresh;
 
-		CKEDITOR.document.getById( 'toolbarModifierWrapper' ).append( toolbarModifier.mainContainer );
+		TEXTEDITOR.document.getById( 'toolbarModifierWrapper' ).append( toolbarModifier.mainContainer );
 
 		var toolbarTextModifier = new ToolbarConfigurator.ToolbarTextModifier( 'editor-advanced' );
 		toolbarTextModifier.init( onToolbarInit );
@@ -245,7 +245,7 @@ For licensing, see LICENSE.md or http://texteditor.com/license
 			if ( ++done === 2 ) {
 				onToolbarsDone();
 
-				positionSticky.watch( CKEDITOR.document.findOne( '.toolbar' ), function() {
+				positionSticky.watch( TEXTEDITOR.document.findOne( '.toolbar' ), function() {
 					return mode === 'advanced';
 				} );
 			}
@@ -261,12 +261,12 @@ For licensing, see LICENSE.md or http://texteditor.com/license
 			updateSwitcher();
 
 			setTimeout( function() {
-				CKEDITOR.document.findOne( '.editors-container' ).addClass( 'active' );
-				CKEDITOR.document.findOne( '#toolbarModifierWrapper' ).addClass( 'active' );
+				TEXTEDITOR.document.findOne( '.editors-container' ).addClass( 'active' );
+				TEXTEDITOR.document.findOne( '#toolbarModifierWrapper' ).addClass( 'active' );
 			}, 200 );
 		}
 
-		CKEDITOR.document.getById( 'toolbarModifierWrapper' ).append( toolbarTextModifier.mainContainer );
+		TEXTEDITOR.document.getById( 'toolbarModifierWrapper' ).append( toolbarTextModifier.mainContainer );
 
 		function toogleModeSwitch( onElement, offElement, onModifier, offModifier ) {
 			onElement.addClass( 'fancy-button-active' );
@@ -312,8 +312,8 @@ For licensing, see LICENSE.md or http://texteditor.com/license
 		// Will make elements behave like they were styled with position:sticky.
 		var positionSticky = {
 			// Store object: {
-			// 		element: CKEDITOR.dom.element, // Element which will float.
-			// 		placeholder: CKEDITOR.dom.element, // Placeholder which is place to prevent page bounce.
+			// 		element: TEXTEDITOR.dom.element, // Element which will float.
+			// 		placeholder: TEXTEDITOR.dom.element, // Placeholder which is place to prevent page bounce.
 			// 		isFixed: boolean // Whether element float now.
 			// }
 			watched: [],
@@ -323,7 +323,7 @@ For licensing, see LICENSE.md or http://texteditor.com/license
 			staticContainer: null,
 
 			init: function() {
-				var element = CKEDITOR.dom.element.createFromHtml(
+				var element = TEXTEDITOR.dom.element.createFromHtml(
 					'<div class="staticContainer">' +
 						'<div class="grid-container" >' +
 							'<div class="grid-width-100">' +
@@ -334,13 +334,13 @@ For licensing, see LICENSE.md or http://texteditor.com/license
 
 				this.staticContainer = element.findOne( '.inner' );
 
-				CKEDITOR.document.getBody().append( element );
+				TEXTEDITOR.document.getBody().append( element );
 			},
 
 			watch: function( element, preventFunc ) {
 				this.watched.push( {
 					element: element,
-					placeholder: new CKEDITOR.dom.element( 'div' ),
+					placeholder: new TEXTEDITOR.dom.element( 'div' ),
 					isFixed: false,
 					preventFunc: preventFunc
 				} );
@@ -371,7 +371,7 @@ For licensing, see LICENSE.md or http://texteditor.com/license
 
 					element.element.removeStyle( 'margin' );
 
-					this.active.splice( CKEDITOR.tools.indexOf( this.active, element ), 1 );
+					this.active.splice( TEXTEDITOR.tools.indexOf( this.active, element ), 1 );
 
 				} else {
 					// Fixing.
@@ -410,20 +410,20 @@ For licensing, see LICENSE.md or http://texteditor.com/license
 
 		positionSticky.init();
 
-		CKEDITOR.document.getWindow().on( 'scroll',
-			new CKEDITOR.tools.eventsBuffer( 100, positionSticky.checkAll, positionSticky ).input
+		TEXTEDITOR.document.getWindow().on( 'scroll',
+			new TEXTEDITOR.tools.eventsBuffer( 100, positionSticky.checkAll, positionSticky ).input
 		);
 
 		// Make the toolbar sticky.
-		positionSticky.watch( CKEDITOR.document.findOne( '.editors-container' ) );
+		positionSticky.watch( TEXTEDITOR.document.findOne( '.editors-container' ) );
 
 		// Help button and help-content.
 		( function() {
-			var helpButton = CKEDITOR.document.getById( 'help' ),
-				helpContent = CKEDITOR.document.getById( 'help-content' );
+			var helpButton = TEXTEDITOR.document.getById( 'help' ),
+				helpContent = TEXTEDITOR.document.getById( 'help-content' );
 
 			// Don't show help button on IE8 because it's unsupported by Pico Modal.
-			if ( CKEDITOR.env.ie && CKEDITOR.env.version == 8 ) {
+			if ( TEXTEDITOR.env.ie && TEXTEDITOR.env.version == 8 ) {
 				helpButton.hide();
 			} else {
 				// Display help modal when the button is clicked.
@@ -434,7 +434,7 @@ For licensing, see LICENSE.md or http://texteditor.com/license
 
 						afterCreate: function( modal ) {
 							// Enable modal content button to close the modal.
-							new CKEDITOR.dom.element( modal.modalElem() ).findOne( '.help-content-close' ).once( 'click', modal.close );
+							new TEXTEDITOR.dom.element( modal.modalElem() ).findOne( '.help-content-close' ).once( 'click', modal.close );
 						}
 					} ).show();
 				} );

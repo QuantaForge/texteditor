@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("selectall","lt",{toolbar:"Pažymėti viską"});
+﻿TEXTEDITOR.plugins.setLang("selectall","lt",{toolbar:"Pažymėti viską"});

@@ -20,11 +20,11 @@ For licensing, see LICENSE.md or http://texteditor.com/license
 	<div id="section1">
 		<div class="description">
 			<p>
-				The <code><a class="samples" href="http://docs.texteditor.com/#!/api/CKEDITOR-method-appendTo">CKEDITOR.appendTo()</a></code> method serves to to place editors inside existing DOM elements. Unlike <code><a class="samples" href="http://docs.texteditor.com/#!/api/CKEDITOR-method-replace">CKEDITOR.replace()</a></code>,
+				The <code><a class="samples" href="http://docs.texteditor.com/#!/api/TEXTEDITOR-method-appendTo">TEXTEDITOR.appendTo()</a></code> method serves to to place editors inside existing DOM elements. Unlike <code><a class="samples" href="http://docs.texteditor.com/#!/api/TEXTEDITOR-method-replace">TEXTEDITOR.replace()</a></code>,
 				a target container to be replaced is no longer necessary. A new editor
 				instance is inserted directly wherever it is desired.
 			</p>
-<pre class="samples">CKEDITOR.appendTo( '<em>container_id</em>',
+<pre class="samples">TEXTEDITOR.appendTo( '<em>container_id</em>',
 	{ /* Configuration options to be used. */ }
 	'Editor content to be used.'
 );</pre>
@@ -37,7 +37,7 @@ For licensing, see LICENSE.md or http://texteditor.com/license
 
 			// Append a CKEditor instance using the default configuration and the
 			// provided content to the <div> element of ID "section1".
-			CKEDITOR.appendTo( 'section1',
+			TEXTEDITOR.appendTo( 'section1',
 				null,
 				'<p>This is some <strong>sample text</strong>. You are using <a href="http://texteditor.com/">CKEditor</a>.</p>'
 			);

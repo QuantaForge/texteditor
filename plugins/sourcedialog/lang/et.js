@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("sourcedialog","et",{toolbar:"Lähtekood",title:"Lähtekood"});
+﻿TEXTEDITOR.plugins.setLang("sourcedialog","et",{toolbar:"Lähtekood",title:"Lähtekood"});

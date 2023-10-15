@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("sourcedialog","sk",{toolbar:"Zdroj",title:"Zdroj"});
+﻿TEXTEDITOR.plugins.setLang("sourcedialog","sk",{toolbar:"Zdroj",title:"Zdroj"});

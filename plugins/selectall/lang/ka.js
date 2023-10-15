@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("selectall","ka",{toolbar:"ყველაფრის მონიშნვა"});
+﻿TEXTEDITOR.plugins.setLang("selectall","ka",{toolbar:"ყველაფრის მონიშნვა"});

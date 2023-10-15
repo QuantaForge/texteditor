@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("preview","km",{preview:"មើល​ជា​មុន"});
+﻿TEXTEDITOR.plugins.setLang("preview","km",{preview:"មើល​ជា​មុន"});

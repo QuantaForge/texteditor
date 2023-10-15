@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("print","ko",{toolbar:"인쇄"});
+﻿TEXTEDITOR.plugins.setLang("print","ko",{toolbar:"인쇄"});

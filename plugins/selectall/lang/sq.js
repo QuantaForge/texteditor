@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("selectall","sq",{toolbar:"Përzgjidh të Gjitha"});
+﻿TEXTEDITOR.plugins.setLang("selectall","sq",{toolbar:"Përzgjidh të Gjitha"});

@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("smiley","it",{options:"Opzioni Smiley",title:"Inserisci emoticon",toolbar:"Emoticon"});
+﻿TEXTEDITOR.plugins.setLang("smiley","it",{options:"Opzioni Smiley",title:"Inserisci emoticon",toolbar:"Emoticon"});

@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("print","ms",{toolbar:"Cetak"});
+﻿TEXTEDITOR.plugins.setLang("print","ms",{toolbar:"Cetak"});

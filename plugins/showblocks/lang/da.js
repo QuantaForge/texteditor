@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("showblocks","da",{toolbar:"Vis afsnitsmærker"});
+﻿TEXTEDITOR.plugins.setLang("showblocks","da",{toolbar:"Vis afsnitsmærker"});

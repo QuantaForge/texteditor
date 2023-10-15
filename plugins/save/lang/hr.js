@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("save","hr",{toolbar:"Snimi"});
+﻿TEXTEDITOR.plugins.setLang("save","hr",{toolbar:"Snimi"});

@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("print","ug",{toolbar:"باس "});
+﻿TEXTEDITOR.plugins.setLang("print","ug",{toolbar:"باس "});

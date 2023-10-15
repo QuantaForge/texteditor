@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("save","ms",{toolbar:"Simpan"});
+﻿TEXTEDITOR.plugins.setLang("save","ms",{toolbar:"Simpan"});
